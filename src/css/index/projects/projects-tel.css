@@ -1,0 +1,113 @@
+.projects {
+    padding-top: 24px;
+}
+
+
+.projects-title {
+    color: var(--Solid-Heading, #42446E);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.projects-subtitle {
+    color: var(--dark-content, #666);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects-list__item {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
+    max-width: 373px;
+    border-radius: 25px; 
+
+}
+
+.projects-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-list__wrapper {
+    padding: 0 10px;
+    padding-bottom: 15px;
+
+}
+
+.projects-list-img {
+    margin-bottom: 15px;
+}
+
+.projects-list-title {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 10px;
+
+}
+
+.projects-list-text {
+    color: var(--dark-content, #666);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.projects-list-description {
+    display: block;
+    color: var(--Solid-Heading, #42446E);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.projects-list-link {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+}
+
+.projects-link-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.projects-list-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.main-wrapper .projects{
+    padding-top: 40px;
+}

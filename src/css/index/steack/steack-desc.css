@@ -1,0 +1,19 @@
+@media screen and (min-width:1158px) {
+    .steack {
+        padding-top: 348px;
+    }
+    
+        .container {}
+    
+        .steack-title {}
+    
+        .steack-subtitle {}
+    
+        .steack-list {
+            gap: 80px;
+        }
+    
+        .steack-list__element {}
+    
+        .steack-list__svg {}
+}

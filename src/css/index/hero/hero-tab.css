@@ -1,0 +1,23 @@
+@media screen  and (min-width:768px){
+    .hero-img{
+        margin: unset;
+    }
+    
+        .hero-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .hero-title {
+            text-align: left;
+            font-size: 58px;
+            margin: unset;
+        }
+
+        .hero-title span{
+            font-size: 58px;
+        }
+    
+
+}

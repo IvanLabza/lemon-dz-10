@@ -1,0 +1,39 @@
+@media screen and (min-width:768px) {
+    .projects {
+        padding-top: 100px;
+    }
+
+
+    .projects-title {
+        margin-bottom: 49px;
+    }
+
+    .projects-subtitle {
+        margin-bottom: 96px;
+    }
+
+    .projects-list {
+    }
+
+    .projects-list__item {}
+
+    .projects-list-img {
+        margin-bottom: 27px;
+    }
+
+    .projects-list__wrapper {}
+
+    .projects-list-title {
+        margin-bottom: 17px;
+    }
+
+    .projects-list-text {
+        margin-bottom: 12px;
+    }
+
+    .projects-list-description {
+        margin-bottom: 27px;
+    }
+
+    
+}
