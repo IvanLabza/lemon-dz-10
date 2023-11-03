@@ -1,0 +1,145 @@
+@media screen and (min-width:1200px) {
+    .conteiner {
+        width: 1200px;
+    }
+    .hero {
+        background-color: var(--navi-blue);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 188px 0;
+    }
+
+.contacts-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.head-navigation-list{
+    margin-left: 76px;
+}
+
+.link:is(:hover,:focus){
+    font-size: 16px;
+}
+
+
+.contacts-list{
+    gap: 40px;
+}
+
+.link{
+    font-size: 16px;
+}
+.product{
+    display: block;
+    padding-top: var(--mp-defolt);
+    padding-bottom: 120px;
+}
+
+.about-svg {
+    display: inline-block;
+    padding: 24px 0;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+
+    background-color: var(--cloude);
+    border-radius: 4px;
+}
+
+.about-list-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.product-header{
+    margin-bottom: 72px;
+}
+
+.about-list-text{
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.about-list{
+    max-width: 264px;
+}
+
+.teamcart-content{
+    margin: 0;
+}
+
+.ftr-form {
+    margin-left: 0;
+}
+
+
+.teamcart-content:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.custom-list{
+    gap: 24px;
+}
+
+.custom-content{
+    min-width: 168px;
+    margin-bottom: 0;
+}
+
+.about-list-flex{
+    justify-content: center;
+}
+
+.ftr-content{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.ftr-form-title{
+    margin-top: 16px;
+}
+
+.ftr-tab{
+    gap: 120px;
+}
+
+.content-list{
+    justify-content: center;
+    gap: 24px;
+}
+.link{
+    padding: 24px 0;
+}
+
+.about{
+    padding-top: 120px;
+}
+
+
+.teamcart{
+    padding: 120px 0;
+}
+
+.custom{
+    padding: 120px 0;
+}
+
+.ftr{
+    padding: 100px 0;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-bg-desctop-2x.jpg");
+    }
+}
+
+}

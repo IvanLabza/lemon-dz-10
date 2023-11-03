@@ -1,0 +1,231 @@
+@media screen and (min-width:768px) {
+    .conteiner {
+        width: 768px;
+    }
+
+    .head-btn-open{
+        display: none;
+    }
+
+    .head-btn-close{
+        display: none;
+    }
+
+    .menu-container{
+        position: static;
+        background-color: transparent;
+        height: unset;
+        transform: unset;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        visibility: visible;
+    }
+    .head-svg{
+        display: none;
+    }
+    .contacts{
+        margin-left: auto;
+    }
+    .contacts-list{
+        display: flex;
+        gap: 12px;
+        margin: 0;
+        margin-left: auto;
+        align-items: center;
+    }
+    .link:is(:hover,:focus){
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    }
+    .hero-header{
+        font-weight: 700;
+        text-transform: unset;
+        font-size: 56px;
+        text-align: center;
+        min-width: 496px;
+        margin-bottom: 36px;
+    }
+
+    .form{
+        min-width: 408px;
+    }
+
+
+    .hero {
+         background-color: var(--navi-blue);
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+    
+
+    .head-navigation-list-link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+        .contacts-mail {
+            margin: 0;
+        }
+
+
+    .link{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+        color: #434455;
+        padding-bottom: 16px;
+    }
+
+    .head-navigation-list{
+        display: flex;
+        gap: 40px;
+        margin: 0 auto;
+    }
+
+    .about-list-flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .about-list{
+        max-width: 356px;
+    }
+    .about-list-header{
+        text-align: left;
+       
+    }
+    .teamcart-content{
+    margin: 0;
+    margin-bottom: 40px;
+    }
+    
+    .teamcart-content:nth-child(3){
+        margin-bottom: 0;
+    }
+    .teamcart-content:nth-child(4) {
+        margin-bottom: 0;
+    }
+    
+    .teamcart{
+        padding: 96px 0;
+    }
+
+    .teamcart-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+        
+    }
+
+    .custom-content{
+        margin-bottom: 72px;
+    }
+
+    .custom{
+        padding: 96px 0;
+    }
+    .ftr-content{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+
+    .ftr-flex{
+        align-items: flex-start;
+    }
+
+    .ftr-soc{
+        display: inline-block;
+    }
+
+    .ftr-text{
+        margin: 0;
+    }
+
+    .ftr-tab{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .ftr-title{
+        text-align: left;
+        margin-top: 0;
+    }
+    .ftr-form-title{
+        text-align: left;
+    }
+
+    .ftr-input{
+        display: block;
+        min-width: 264px;
+
+    }
+
+    .ftr-form-flex{
+        display: flex;
+        gap: 24px;
+    }
+
+        .ftr-form {
+            margin-left: 120px;
+        }
+
+    .logo{
+        padding: 24px 0;
+    }
+    .head-navigation-list-link{
+    padding: 24px 0;
+    }
+
+    .head-navigation-list-link.active{
+        color: var(--ocean);
+    }
+
+    .active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #404BBF;
+    border-radius: 2px;
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0;
+    }
+
+    .main-nav{
+        justify-content: center;
+    }
+
+    .content-list{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        row-gap: 48px;
+        column-gap: 18px;
+        position: relative;
+    }
+
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-bg-tab-2x.jpg");
+            }
+        }
+}

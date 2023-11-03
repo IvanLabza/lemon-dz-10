@@ -1,0 +1,5 @@
+{
+    "prettier.ignorePath": "",
+    "prettier.prettierPath": ".prettierrc.json",
+    "liveServer.settings.port": 5501
+}
