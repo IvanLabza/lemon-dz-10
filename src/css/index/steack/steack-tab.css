@@ -1,0 +1,28 @@
+@media screen and (min-width:768px) {
+
+    .steack {
+        padding-top: 256px;
+    }
+
+
+    .steack-title {
+        font-size: 48px;
+        margin-bottom: 49px;
+    }
+
+    .steack-subtitle {
+        font-size: 48px;
+        margin-bottom: 75px;
+    }
+
+
+    .steack-list__svg {
+        width: 120px;
+        height: 120px;
+    }
+
+         .steack-list{
+            gap: 50px;
+         }
+
+}

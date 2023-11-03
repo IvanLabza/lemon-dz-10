@@ -1,0 +1,47 @@
+.steack {
+    padding-top: 24px;
+}
+
+
+.steack-title {
+    color: #42446E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.steack-subtitle {
+    color: var(--dark-content, #666);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 24px;
+}
+
+.steack-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.steack-list__element {}
+
+.steack-list__svg {
+    width: 50px;
+    height: 50px;
+}
+
+
+.main-wrapper .steack{
+    padding-top: 80px;
+
+    
+}
+
