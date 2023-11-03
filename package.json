@@ -1,38 +1,21 @@
 {
-  "name": "react-project-first",
-  "version": "0.1.0",
+  "name": "Front-end__portfolio",
   "private": true,
-  "dependencies": {
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/Front-end__portfolio/",
     "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
-    "glob": "^8.1.0",
-    "vite": "^4.5.0"
+    "vite": "^4.0.0",
+    "glob": "^8.1.0"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
 }
