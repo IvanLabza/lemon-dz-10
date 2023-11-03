@@ -1,0 +1,38 @@
+@import url(./reset.css);
+@import url(./index/index.css);
+@import url(./about/about.css);
+@import url(./contact/contact.css);
+
+.container{
+  margin: 0 auto;
+  max-width: 1204px;
+  padding: 0 15px;
+}
+
+:root {
+  --background-color-light: #ffffff;
+  --background-color-dark: #010101;
+}
+
+body {
+  background-color: var(--background-color-light);
+  transition: background-color 0.5s ease-in-out;
+}
+
+:root {
+
+  --Solid-Heading:#42446E;
+  --Gradient-Heading:linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  --dark-content:#666;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.is-dart .ftr{
+  background-color: #000;
+}
